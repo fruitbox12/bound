@@ -9,7 +9,7 @@ export const Explore = () => (
   <Layout>
     <Flex direction='column'>
       <Flex ml={200}>
-        <Heading>Explore Subscriptions</Heading>
+        <Heading>Explore Projects</Heading>
       </Flex>
       <Box
         // contains the grid of cards
