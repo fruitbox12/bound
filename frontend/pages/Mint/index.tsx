@@ -132,7 +132,7 @@ export default function Minting() {
           </p>
         )}
         <Flex ml={200}>
-          <Heading>Mint</Heading>
+          <Heading>Create DeVo Project</Heading>
         </Flex>
         <SimpleGrid
           columns={{ sm: 1, md: 2 }}
@@ -164,7 +164,7 @@ export default function Minting() {
         <Center mt='0'>
           {isConnected && !isMinted && (
             <Button
-              backgroundColor='#FDB251'
+              backgroundColor='#fd519c'
               // disabled={!createSub || isMintLoading || isMintStarted}
               color='white'
               width={200}
@@ -174,8 +174,8 @@ export default function Minting() {
               onClick={() => handleMint()}
             >
               {isMintLoading && 'Waiting for approval'}
-              {isMintStarted && 'Minting...'}
-              {!isMintLoading && !isMintStarted && 'Mint'}
+              {isMintStarted && 'Launching...'}
+              {!isMintLoading && !isMintStarted && 'Launch'}
             </Button>
           )}
           {isMinted && (
