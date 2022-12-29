@@ -33,7 +33,7 @@ export default function Landing() {
         <HStack direction={{ base: 'column', md: 'row' }} margin={'2rem'}>
           <Flex justifyContent={'space-between'}>
             <Link href='/Explore'>
-              <Image src='boundlogo.png' width={32} alt={''} />
+              <Image src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fgitcoin.co%2Fgrants%2F6933%2Fdecentralized-volunteering-devo-protocol-dao&psig=AOvVaw0y0AlnlN8nJxklyjYOm7A0&ust=1672376107347000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIiXuNCEnvwCFQAAAAAdAAAAABAZ' width={32} alt={''} />
             </Link>
           </Flex>
           <Spacer />
