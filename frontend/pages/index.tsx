@@ -76,10 +76,10 @@ export default function Landing() {
               <Stack height={300} width={500} mt={16}>
                 <Stack spacing={5} align='center' py={5}>
                   <HStack>
-                    <Heading size='3xl'>Gamify</Heading>
-                    <Heading size='3xl'>Your</Heading>
+                    <Heading size='3xl'>Get Rewards</Heading>
+                    <Heading size='3xl'>For</Heading>
                   </HStack>
-                  <Heading size='3xl'>Subscriptions</Heading>
+                  <Heading size='3xl'>Volunteering</Heading>
                 </Stack>
 
                 <Stack align='center' spacing={3} p={4}>
@@ -89,14 +89,13 @@ export default function Landing() {
                     color='rgba(11, 11, 13, 0.4)'
                     textAlign='center'
                   >
-                    The only platform that gamifies tiered subsctiption passes
-                    using NFTs and credentials
+                    DeVo, the only platform that gamifies decentralized volunteering  
                   </Heading>
                   <ButtonGroup variant='outline' spacing='6' p={5}>
                     <Box
                       width={'auto'}
                       height={100}
-                      bg='#FEA401'
+                      bg='#fe27cb'
                       rounded='lg'
                       objectFit='cover'
                       position='absolute'
@@ -107,11 +106,11 @@ export default function Landing() {
                     ></Box>
                     <Link href='https://airtable.com/shrFwWZBwQXJb78Ss'>
                       <Button
-                        bg='#FEA401'
+                        bg='#fe27cb'
                         variant='solid'
                         color={'white'}
                         _hover={{
-                          bg: '#FFB93A',
+                          bg: '#fe27cb',
                         }}
                         py={0}
                         px={10}
@@ -193,7 +192,7 @@ export default function Landing() {
                           <AccordionButton
                             borderRadius='lg'
                             py={5}
-                            _expanded={{ bg: '#FEA401', color: 'white' }}
+                            _expanded={{ bg: '#fe27cb', color: 'white' }}
                           >
                             <Box
                               flex='1'
@@ -201,23 +200,23 @@ export default function Landing() {
                               fontWeight='semibold'
                             >
                               <Heading size='md'>
-                                How are these subscriptions different?
+                                How are these campaigns different?
                               </Heading>
                             </Box>
                             <AccordionIcon w={10} h={10} />
                           </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4} fontWeight='medium'>
-                          In Web2, you can subscribe to a tier of a
-                          subscription. If you decide to cancel, your commitment
-                          or loyalty to the product is not rewarded and yet your
-                          back to 0. With Bound, you can purchase to a
-                          subscription pass sold by a business or creator. If
-                          you decide to cancel or your subscription expires,
-                          your credentials earned throughout the subscription
-                          pass stay with you forever. That makes it if you ever
-                          do decide to purchaase or revew the subscription, you
-                          will still enjoy the perks you have earned initially.
+                          In Web2, you can fund to a tier of a
+                          cause. If you decide to cancel, your commitment
+                          or loyalty to the effort is not rewarded and yet your
+                          back to waiting. With Decentralized Volunteering, you can donate to a
+                          project volunteer contributing to a business or organization. If
+                          you decide to cancel or your pledge expires,
+                          your credentials earned throughout the pledge
+                          stay with you forever. That makes it if you ever
+                          do decide to revew the donation, you
+                          will still inherit the perks you have earned initially.
                         </AccordionPanel>
                       </AccordionItem>
                       <AccordionItem>
@@ -225,7 +224,7 @@ export default function Landing() {
                           <AccordionButton
                             borderRadius='lg'
                             py={5}
-                            _expanded={{ bg: '#FEA401', color: 'white' }}
+                            _expanded={{ bg: '#fe27cb', color: 'white' }}
                           >
                             <Box
                               flex='1'
@@ -233,14 +232,14 @@ export default function Landing() {
                               fontWeight='semibold'
                             >
                               <Heading size='md'>
-                                How do Credentials work?
+                                How do Decentralized Identifiers (DIDs) work?
                               </Heading>
                             </Box>
                             <AccordionIcon w={10} h={10} />
                           </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4} fontWeight='medium'>
-                          Credentials are make up of non-transferrable tokens. A
+                          DID's are make up of non-transferrable tokens. A
                           good analogy to think of this would be like a Fortnite
                           or Call of Duty Battle Pass. Instead of receving skins
                           or other items, you will receive a pass that you can
@@ -253,7 +252,7 @@ export default function Landing() {
                           <AccordionButton
                             borderRadius='lg'
                             py={5}
-                            _expanded={{ bg: '#FEA401', color: 'white' }}
+                            _expanded={{ bg: '#fe27cb', color: 'white' }}
                           >
                             <Box
                               flex='1'
