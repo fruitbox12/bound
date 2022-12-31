@@ -84,7 +84,7 @@ export default function ListFeatures() {
           size={50}
           radius="md"
           variant="gradient"
-          gradient={{ deg: 133, from: 'orange', to: 'yellow' }}
+          gradient={{ deg: 133, from: '#ae00f3', to: '#ae00f3' }}
         >
           <feature.icon size={26} stroke={1.5} />
         </ThemeIcon>
