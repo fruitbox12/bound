@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     cardInfo: {
-      name: 'Verci DAO',
+      name: 'Git DAO',
       href: '#',
       imageSrc: 'fakenft.png',
       imageAlt: 'Fake NFT boi',
