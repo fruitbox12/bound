@@ -61,7 +61,7 @@ export default function Sidebar() {
     <Box mb={10}>
       <Flex mx={5} mt={35} gap={5} align="center">
         <Link href="/">
-          <Image src="boundlogo.png" width={32} alt="logo" />
+          <Image src="https://devoprotocol.org/gfx/devo-logo.png" width={32} alt="logo" />
         </Link>
         {/* <Button size="sm" onClick={onToggle}>
           <BiDotsHorizontal size={30} />
