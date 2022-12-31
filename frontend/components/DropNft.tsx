@@ -19,7 +19,7 @@ export const DropNft = (props: CenterProps, { setFilePath }: any) => (
     py="4"
     {...props}
     bg="#FEFFFE"
-    borderColor="#FEA401"
+    borderColor="#f11eff"
     boxShadow="inner"
   >
     <VStack spacing="3">
