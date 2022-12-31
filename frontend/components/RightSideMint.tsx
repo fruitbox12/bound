@@ -29,12 +29,12 @@ export default function RightSideMint({
   return (
     <Box maxH={590} width='auto'>
       {/* <FormControl id='file'>
-        <FormLabel fontWeight='semibold'>Upload Images</FormLabel>
-        <Text>Further describe the NFT</Text>
+        <FormLabel fontWeight='semibold'>Upload Project Images</FormLabel>
+        <Text>Further describe the Campaign</Text>
         <DropImage />
       </FormControl> */}
       <FormLabel fontWeight='semibold'>Give a description</FormLabel>
-      <Text>Further describe the NFT</Text>
+      <Text>Further describe the Project</Text>
 
       <Stack mt={5} spacing={3}>
         <ModalRequirementMint />
@@ -43,7 +43,7 @@ export default function RightSideMint({
       </Stack>
 
       <Button
-        backgroundColor='#1A202C'
+        backgroundColor='#7727f3'
         color='white'
         width={'100%'}
         size='md'
