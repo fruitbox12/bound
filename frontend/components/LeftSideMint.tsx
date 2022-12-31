@@ -30,21 +30,21 @@ export default function LeftSideMint({
       <Box>
         <FormControl id='file' isRequired>
           <FormLabel fontWeight='semibold'>Upload a file</FormLabel>
-          <Text>Create your subscription pass</Text>
+          <Text>Create your Fundraising Campaign</Text>
 
           <DropNft mt={5} />
         </FormControl>
         <HStack>
           <FormControl isRequired>
             <Heading size='xs' mt={5} fontWeight='normal'>
-              Subscription Details
+              Project Milestones
             </Heading>
 
             <FormLabel mt={1} fontWeight='semibold'>
               Title
             </FormLabel>
             <Input
-              placeholder='e.g. The Cool Group'
+              placeholder='e.g. The Volunteer Group'
               bg='#FEFFFE'
               borderColor='#D3D3D3'
               onChange={(e) => setName(e.target.value)}
@@ -75,7 +75,7 @@ export default function LeftSideMint({
             </FormLabel>
             <Select
               // placeholder="# people you share with"
-              placeholder='Feature coming soon!'
+              placeholder='Bounties Oracle coming soon!'
               bg='#FEFFFE'
               borderColor='#D3D3D3'
               color='#9BA3AF'
@@ -90,7 +90,7 @@ export default function LeftSideMint({
               Supply
             </FormLabel>
             <Input
-              placeholder='# of subscriptions'
+              placeholder='# of pledges'
               bg='#FEFFFE'
               borderColor='#D3D3D3'
               onChange={(e) => setMax(e.target.value)}
@@ -104,7 +104,7 @@ export default function LeftSideMint({
               Pricing
             </FormLabel>
             <Input
-              placeholder='ETH (per cycle)'
+              placeholder='DeVo or WETH (per cycle)'
               bg='#FEFFFE'
               borderColor='#D3D3D3'
               onChange={(e) => setPrice(e.target.value)}
