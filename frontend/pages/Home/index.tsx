@@ -70,7 +70,7 @@ export default function Dashboard() {
              >
                 <VStack>
                   <BiAddToQueue size="50px" />
-                  <Text fontSize="lg">Create a Project Campaign</Text>
+                  <Text fontSize="lg">New Projecto</Text>
                 </VStack>
               </Button>
             </Stack>
