@@ -34,7 +34,7 @@ const useStyles = createStyles((theme) => ({
     color: theme.colorScheme === 'dark' ? theme.white : theme.black,
   },
   highlight: {
-    backgroundColor: "#fa01fe"
+    backgroundColor: "#fa01fe",
     padding: 5,
     paddingTop: 0,
     borderRadius: theme.radius.sm,
