@@ -89,7 +89,7 @@ export default function Landing() {
                     color='rgba(11, 11, 13, 0.4)'
                     textAlign='center'
                   >
-                    DeVo, the only platform that gamifies decentralized volunteering  
+                    DeVo, the only platform that incentivizes decentralized volunteering  
                   </Heading>
                   <ButtonGroup variant='outline' spacing='6' p={5}>
                     <Box
@@ -121,7 +121,7 @@ export default function Landing() {
 
                     <Link href='https://calendly.com/boundlabs/30min?month=2022-08'>
                       <Button py={0} px={10}>
-                        Free Demo Call
+                        Schedule a call for Enterprise 
                       </Button>
                     </Link>
                   </ButtonGroup>
