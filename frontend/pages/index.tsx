@@ -76,8 +76,8 @@ export default function Landing() {
               <Stack height={300} width={500} mt={16}>
                 <Stack spacing={5} align='center' py={5}>
                   <HStack>
-                    <Heading size='3xl'>Get Rewards</Heading>
-                    <Heading size='3xl'>For</Heading>
+                    <Heading size='3xl'>Get Rewards by</Heading>
+                    <Heading size='3xl'></Heading>
                   </HStack>
                   <Heading size='3xl'>Volunteering</Heading>
                 </Stack>
@@ -121,7 +121,7 @@ export default function Landing() {
 
                     <Link href='https://calendly.com/boundlabs/30min?month=2022-08'>
                       <Button py={0} px={10}>
-                        Schedule a call for Enterprise 
+                        Schedule a call for Enterprise Version
                       </Button>
                     </Link>
                   </ButtonGroup>
