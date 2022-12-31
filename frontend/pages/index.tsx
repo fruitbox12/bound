@@ -56,22 +56,6 @@ export default function Landing() {
           </Box>
         </HStack>
 
-        <AnimatePresence>
-          <motion.div
-            className='box'
-            initial='hidden'
-            whileInView='visible'
-            viewport={{ once: true }}
-            transition={{
-              duration: 0.5,
-              delay: 0.5,
-              ease: [0, 0.71, 0.2, 1.01],
-            }}
-            variants={{
-              visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0, scale: 0 },
-            }}
-          >
             <Center>
               <Stack height={300} width={500} mt={16}>
                 <Stack spacing={5} align='center' py={5}>
@@ -128,40 +112,7 @@ export default function Landing() {
                 </Stack>
               </Stack>
             </Center>
-          </motion.div>
-        </AnimatePresence>
-
-        {/* <AnimatePresence> */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
-          <Flex p={10} justify={'center'}>
-            <ScrollBoundCards />
-          </Flex>
-        </motion.div>
-        {/* </AnimatePresence> */}
-
-        <AnimatePresence>
-          <motion.div
-            className='box'
-            initial='hidden'
-            whileInView='visible'
-            viewport={{ once: true }}
-            transition={{
-              duration: 1.5,
-              delay: 0.5,
-              ease: [0, 0.71, 0.2, 1.01],
-            }}
-            variants={{
-              visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0, scale: 0 },
-            }}
-          >
-            <ListFeatures />
-          </motion.div>
-        </AnimatePresence>
+    
 
         <AnimatePresence>
           <motion.div
@@ -260,15 +211,15 @@ export default function Landing() {
                               fontWeight='semibold'
                             >
                               <Heading size='md'>
-                                What chain do you use?
+                                What chains are you on?
                               </Heading>
                             </Box>
                             <AccordionIcon w={10} h={10} />
                           </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4} fontWeight='medium'>
-                          We will start with the Ethereum blockchain as our
-                          first network.
+                          We will start with Ethereum and Polygon as our
+                          first integrations.
                         </AccordionPanel>
                       </AccordionItem>
                     </Accordion>
