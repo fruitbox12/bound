@@ -62,15 +62,15 @@ export default function Dashboard() {
                 maxH={'280px'}
                 borderRadius="xl"
                 bg="#FEFFFE"
-                borderColor="#FEA401"
+                borderColor="#fd519c"
                 borderWidth="4px"
                 boxShadow="inner"
                 onClick={() => router.push('/Mint')}
                 // colorScheme="#FECD5B"
-              >
+             >
                 <VStack>
                   <BiAddToQueue size="50px" />
-                  <Text fontSize="lg">Mint an NFT</Text>
+                  <Text fontSize="lg">Create a Project Campaign</Text>
                 </VStack>
               </Button>
             </Stack>
