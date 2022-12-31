@@ -1,4 +1,4 @@
-import { Center } from '@chakra-ui/react';
+ import { Center } from '@chakra-ui/react';
 import {
   createStyles,
   Title,
@@ -34,10 +34,7 @@ const useStyles = createStyles((theme) => ({
     color: theme.colorScheme === 'dark' ? theme.white : theme.black,
   },
   highlight: {
-    backgroundColor: theme.fn.variant({
-      variant: 'light',
-      color: 'orange',
-    }).background,
+    backgroundColor: "#fa01fe"
     padding: 5,
     paddingTop: 0,
     borderRadius: theme.radius.sm,
