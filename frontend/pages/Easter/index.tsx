@@ -66,10 +66,10 @@ export default function Landing() {
           <Link href="/Home">
             <Button
               rounded={'full'}
-              bg={'yellow.400'}
+              bg={'#fd519c'}
               color={'white'}
               _hover={{
-                bg: 'yellow.500',
+                bg: '#fd519c',
               }}
               margin={'1rem'}
             >
