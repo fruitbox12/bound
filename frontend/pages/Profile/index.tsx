@@ -50,14 +50,14 @@ export default function Profile() {
         <TabList justifyContent={'center'}>
           <Tab
             _selected={{
-              color: '#FEA401',
+              color: '#f11eff',
             }}
           >
-            Collection
+            Project
           </Tab>
           <Tab
             _selected={{
-              color: '#FEA401',
+              color: '#f11eff',
             }}
           >
             Activity
@@ -67,7 +67,7 @@ export default function Profile() {
         <TabPanels>
           <TabPanel>
             <Flex justifyContent={'center'}>
-              <Heading margin={'1.5rem'}>Your Subscriptions</Heading>
+              <Heading margin={'1.5rem'}>Your Sponsored Projects</Heading>
             </Flex>
             <Grid
               // h="500px"
